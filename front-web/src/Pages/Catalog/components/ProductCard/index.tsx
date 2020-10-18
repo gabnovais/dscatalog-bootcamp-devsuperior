@@ -1,14 +1,11 @@
 import React from 'react';
-import ProductPrice from '../../../../core/components/ProductPrice';
-import { Product } from '../../../../core/types/Product';
+import ProductPrice from 'core/components/ProductPrice';
+import { Product } from 'core/types/Product';
 import './styles.scss'; 
 
 type Props = {
     product: Product;
 }
-
-
-
 
 const ProductCard = ({ product }: Props) => (
     <div className="card-base border-radius-10 product-card">
